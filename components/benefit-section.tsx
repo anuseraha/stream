@@ -9,12 +9,12 @@ const benefits = [
   {
     icon: Rocket,
     title: "Entrepreneurs",
-    description: "Manage your workload, delegate tasks, and grow your business with Tasky.",
+    description: "Manage your workload, delegate tasks, and grow your business with Connectstream.",
   },
   {
     icon: Users,
     title: "Collaborators",
-    description: "Work together seamlessly with Tasky's real-time collaboration features.",
+    description: "Work together seamlessly with Whatsapp Api features.",
   },
   {
     icon: Clock,
@@ -27,9 +27,9 @@ export function BenefitSection() {
   return (
     <section className="py-20 px-4 md:px-8 bg-muted/30">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Who Can Benefit From Tasky?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Who Can Benefit From Connectstream?</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-12">
-          Our AI-powered task management platform is perfect for individuals and teams from various backgrounds and
+          Our AI-powered Whatsapp Api platform is perfect for individuals and teams from various backgrounds and
           industries.
         </p>
 

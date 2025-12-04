@@ -53,20 +53,19 @@ function AnimatedStat({ target, suffix = "" }: { target: number; suffix?: string
 }
 
 const stats = [
-  { value: 5000, suffix: "+", label: "Teams worldwide rely on our platform" },
-  { value: 100000, suffix: "+", label: "Amount of tasks automated every day" },
-  { value: 99, suffix: "%", label: "Uptime guarantee for maximum productivity" },
-  { value: 47, suffix: "%", label: "Average increase in team productivity" },
+  { value: 100, suffix: "+", label: "Customers on WhatsApp" },
+  { value: 45-50, suffix: "+", label: "Better Conversions" },
+  { value: 90, suffix: "%", label: "Faster Than Email" },
+  { value: 80, suffix: "%", label: "Businesses Rely on It" },
 ]
 
 export function StatsSection() {
   return (
     <section className="py-20 px-4 md:px-8 bg-background">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Teams Who've Transformed Their Workflow</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Why WhatsApp?</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-16">
-          Our users are the reason we're here. Their success stories inspire us to keep pushing the boundaries of what's
-          possible. Thousands of teams have already discovered the power of our platform.
+          WhatsApp is the ultimate platform for actionable notifications and customer support!
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

@@ -15,15 +15,16 @@ export function HeroSection() {
             variant="outline"
             className="rounded-full px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/5 text-primary"
           >
-            <span className="mr-2">📈</span> Revolutionize Your Workflow Now
+            <span className="mr-2">📈</span> 
+Proud Participant of Web Summit 2025 Qatar
           </Badge>
 
           <h1 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-            AI-Powered <span className="text-primary">Task Automation</span>
+            Redefined Business & <span className="text-primary">Chat Commerce</span>
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-            Boost productivity and streamline workflows with our intelligent task management solution.
+            Seamlessly connect with your audience using the power of Official WhatsApp APIs⚡
           </p>
 
           <div className="flex flex-wrap items-center gap-4">
@@ -38,7 +39,7 @@ export function HeroSection() {
 
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-            <span>4.5/5 stars on G2 for Task Automation</span>
+            <span>Trusted by 100+ Businesses in 6+ Countries Worldwide! 🌍</span>
           </div>
         </div>
 
@@ -53,7 +54,7 @@ export function HeroSection() {
                   <div className="flex gap-2">
                     <Badge className="bg-blue-500 text-white text-xs">Wireframes</Badge>
                     <Badge variant="outline" className="text-xs text-primary border-primary">
-                      UX
+                      Whatsapp
                     </Badge>
                   </div>
                   <span className="text-xs text-muted-foreground flex items-center gap-1">
@@ -62,17 +63,17 @@ export function HeroSection() {
                 </div>
 
                 <div>
-                  <h3 className="font-semibold text-sm">Basic Wireframes for Task Automation</h3>
+                  <h3 className="font-semibold text-sm">Basic WhatsApp Support Flow</h3>
                   <p className="text-xs text-muted-foreground mt-1">
-                    Please include a detailed design brief and wireframes in your submission.
+                    Customer sent an order query. Use the approved template to request payment confirmation and attach invoice.
                   </p>
                 </div>
 
                 <div className="flex items-center gap-2 text-xs text-muted-foreground">
                   <div className="flex h-5 w-5 items-center justify-center rounded bg-primary/10">
-                    <span className="text-primary text-[10px] font-bold">T</span>
+                    <span className="text-primary text-[10px] font-bold">CS</span>
                   </div>
-                  <span>Tasky</span>
+                  <span>Connectstream</span>
                 </div>
 
                 <div className="space-y-2">
@@ -128,7 +129,7 @@ export function HeroSection() {
                     </Avatar>
                     <div>
                       <p className="font-semibold text-sm">Alex</p>
-                      <p className="text-xs text-muted-foreground">UI UX Design</p>
+                      <p className="text-xs text-muted-foreground">Whatsapp Business Api</p>
                     </div>
                   </div>
                   <Button size="sm" className="h-7 bg-green-500 hover:bg-green-600 text-white text-xs">
@@ -157,7 +158,7 @@ export function HeroSection() {
                         PDF
                       </div>
                       <div>
-                        <p className="text-xs font-medium">Mind Mapping 01.pdf</p>
+                        <p className="text-xs font-medium">product_photo_01.jpg</p>
                         <p className="text-[10px] text-muted-foreground">4.5MB</p>
                       </div>
                     </div>

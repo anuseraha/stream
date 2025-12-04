@@ -30,13 +30,13 @@ export function FeaturesSection() {
       <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-start mb-12">
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl text-balance">
-            Revolutionize Your <span className="text-primary">Task Management</span>
+           Turn WhatsApp into Your  <span className="text-primary">#1 Revenue Channel! 🚀</span>
           </h2>
         </div>
         <div>
           <p className="text-muted-foreground leading-relaxed">
-            Our AI-powered task management solution helps you automate repetitive tasks, prioritize focus areas, and
-            optimize your workflow for maximum efficiency.
+            Broadcast, Automate, Engage, and Sell – All in One Smart WhatsApp Engagement Platform!
+            Seamlessly connect with your audience using the power of Official WhatsApp APIs⚡
           </p>
         </div>
       </div>

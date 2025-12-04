@@ -4,29 +4,29 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "How does AI-powered task automation work?",
+    question: "How is Whatsapp business Api pricing structured?",
     answer:
-      "Our AI analyzes your work patterns, priorities, and deadlines to automatically categorize, prioritize, and even complete routine tasks. It learns from your behavior to provide personalized suggestions and automations.",
+      "WhatsApp follows a conversation-based pricing model, categorized into Marketing, Utility, Authentication, and Service conversations, each with different charges.",
   },
   {
-    question: "Can I integrate Tasky with other tools?",
+    question: "Are incoming messages from users free?",
     answer:
-      "Yes! Tasky integrates seamlessly with popular tools like Slack, Google Workspace, Microsoft 365, Notion, and many more. Our Professional and Enterprise plans offer even more integration options.",
+      "Yes, all incoming messages from users are free. Charges apply only when a business responds, initiating a paid conversation.",
   },
   {
-    question: "Is my data secure with Tasky?",
+    question: "what are the charges for marketing conversations?",
     answer:
-      "Absolutely. We use enterprise-grade encryption, regular security audits, and comply with GDPR, SOC 2, and other major security standards. Your data is always encrypted at rest and in transit.",
+      "Marketing Conversations, which include promotional messages, cost ₹0.88 per conversation (for Indian users)",
   },
   {
-    question: "Can I upgrade or downgrade my plan?",
+    question: "Are service conversations free?",
     answer:
-      "Yes, you can change your plan at any time. When upgrading, you'll get immediate access to new features. When downgrading, changes take effect at the end of your billing cycle.",
+      "Yes, Service Conversations (user-initiated support chats) are completely free for all businesses using Connect Stream.",
   },
   {
-    question: "Do you offer a free trial?",
+    question: "Is there a separate fee for using whatsapp templates?",
     answer:
-      "Yes! Our Free plan lets you explore Tasky's core features with up to 10 users at no cost. You can upgrade to Professional or Enterprise whenever you're ready for more advanced features.",
+      "No, there is no extra charge for using templates, but template messages fall under paid conversation categories based on their purpose.",
   },
 ]
 

@@ -31,27 +31,26 @@ export function OverachieverSection() {
           {/* Left Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              From Overwhelmed to <span className="text-primary">Overachiever</span>
+              
+Seamlessly Integrate Forms,<span className="text-primary">Payments & CTWA </span>
             </h2>
             <p className="text-muted-foreground text-lg mb-6">
-              Streamline tasks, boost productivity, and enhance collaboration with our AI-powered task management
-              platform, designed to help teams work smarter, not harder, and achieve their goals with ease and
-              efficiency.
+             Run Facebook & Instagram ads that drive traffic to WhatsApp. Boost lead generation by 5X and increase conversions 2-3X instantly!
+             Run ads directly from Connect Stream, intelligently segment your leads, and create chatbot flows to automate your entire process!
             </p>
             <p className="text-muted-foreground mb-8">
-              Get more done in less time, reduce stress, and increase job satisfaction with our AI-driven task
-              management.
+              Experience the Newest WhatsApp Features First with Connect Stream!
             </p>
             <button className="bg-primary text-primary-foreground px-6 py-3 rounded-full font-medium hover:bg-primary/90 transition-colors">
-              Make a Task
+              Explore
             </button>
           </div>
 
           {/* Right Card */}
           <div className="bg-card border border-border rounded-2xl p-6 shadow-sm">
             <div className="mb-4">
-              <h3 className="text-sm font-medium text-muted-foreground mb-1">Productivity Score</h3>
-              <p className="text-xs text-muted-foreground">Represents your current productivity score</p>
+              <h3 className="text-sm font-medium text-muted-foreground mb-1">📊 WhatsApp API Metrics</h3>
+              <p className="text-xs text-muted-foreground">Tracks the real-time success rate of WhatsApp Business API message delivery, reads, and failures.</p>
             </div>
 
             <div className="flex items-end justify-center py-8">
@@ -61,7 +60,7 @@ export function OverachieverSection() {
             </div>
 
             <div className="flex items-center justify-between text-sm text-muted-foreground border-t border-border pt-4">
-              <span>Productivity Score</span>
+              <span>Delivery Score</span>
               <span>Updated Dec 25, 2035</span>
             </div>
           </div>

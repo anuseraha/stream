@@ -11,7 +11,7 @@ export function TaskManagementSection() {
           Unlock <span className="text-primary">Efficient</span> Task Management
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Tasky is designed to help you streamline your workflow, enhance teamwork, and boost productivity.
+          Connectstream is designed to help you streamline your workflow, enhance teamwork, and boost productivity.
         </p>
       </div>
 

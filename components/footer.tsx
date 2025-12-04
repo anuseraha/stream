@@ -11,10 +11,10 @@ export function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
                 <Triangle className="h-4 w-4 fill-primary-foreground text-primary-foreground" />
               </div>
-              <span className="text-xl font-semibold text-foreground">Tasky</span>
+              <span className="text-xl font-semibold text-foreground">Connectstream</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
-              AI-powered task automation to boost your productivity and streamline workflows.
+              Turn WhatsApp into Your #1 Revenue Channel.
             </p>
           </div>
 
