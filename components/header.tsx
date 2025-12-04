@@ -16,7 +16,7 @@ export function Header() {
   className="object-contain"
 />
 
-          <span className="text-xl font-semibold text-foreground">Connectstream</span>
+      
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Triangle } from "lucide-react"
+import Image from 'next/image';
 
 export function Footer() {
   return (
@@ -7,12 +8,17 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12 md:px-6">
         <div className="grid gap-8 md:grid-cols-4">
           <div className="space-y-4">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-                <Triangle className="h-4 w-4 fill-primary-foreground text-primary-foreground" />
-              </div>
-              <span className="text-xl font-semibold text-foreground">Connectstream</span>
-            </Link>
+              <Link href="/" className="flex items-center gap-2">
+        <Image
+  src="/connect_stream_logo.svg"
+  alt="Logo"
+  width={140}
+  height={50}
+  className="object-contain"
+/>
+
+      
+        </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
               Turn WhatsApp into Your #1 Revenue Channel.
             </p>
