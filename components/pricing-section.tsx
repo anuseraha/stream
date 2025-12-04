@@ -7,8 +7,6 @@ import { cn } from "@/lib/utils"
 const plans = [
   {
     name: "Growth",
-    description: "10 user maximum, good for individuals and small teams.",
-    price: { monthly: 0, annual: 0 },
     features: [
       "Up to 5 user agents",
       "20K conversations per month",
@@ -18,14 +16,11 @@ const plans = [
       "Google Sheet integration",
       "Payment gateways",
       "Lead ad automations",
-      
     ],
     popular: false,
   },
   {
     name: "Pro",
-    description: "For teams that require a centralized platform to manage their work.",
-    price: { monthly: 29, annual: 25 },
     features: [
       "Up to 15 user agents",
       "Up to 30K conversations per month",
@@ -42,15 +37,12 @@ const plans = [
       "ChatGPT integrations",
       "OpenAI chat using business data",
       "Text & voice conversation AI",
-      "Custom integration support"
-
+      "Custom integration support",
     ],
     popular: true,
   },
   {
     name: "Business",
-    description: "For big team that need to align departments and teams.",
-    price: { monthly: 49, annual: 42 },
     features: [
       "Up to 50 user agents",
       "Up to 100K conversations per month",
@@ -63,14 +55,13 @@ const plans = [
       "OpenAI chat using business data",
       "Text & voice conversation AI",
       "Custom integration support",
-
     ],
     popular: false,
   },
 ]
 
 export function PricingSection() {
-  const [isAnnual, setIsAnnual] = useState(false)
+  const [isAnnual, setIsAnnual] = useState(false) // You can remove this later if not used elsewhere
 
   return (
     <section id="pricing" className="py-20 px-4 md:px-8 bg-background">
@@ -78,42 +69,17 @@ export function PricingSection() {
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
           Unlock the Full Potential
           <br />
-          of Your Team
+          of Your Business
         </h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-          With flexible pricing plans, you can choose the option that best fits your needs and budget.
-        </p>
 
-        {/* Toggle */}
-        <div className="flex items-center justify-center gap-4 mb-12">
-          <span className={cn("text-sm", !isAnnual ? "text-foreground font-medium" : "text-muted-foreground")}>
-            Monthly
-          </span>
-          <button
-            onClick={() => setIsAnnual(!isAnnual)}
-            className={cn("relative w-14 h-7 rounded-full transition-colors", isAnnual ? "bg-primary" : "bg-muted")}
-          >
-            <span
-              className={cn(
-                "absolute top-1 w-5 h-5 bg-white rounded-full transition-transform",
-                isAnnual ? "translate-x-8" : "translate-x-1",
-              )}
-            />
-          </button>
-          <span className={cn("text-sm", isAnnual ? "text-foreground font-medium" : "text-muted-foreground")}>
-            Annual
-          </span>
-          <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">-15%</span>
-        </div>
-
-        {/* Pricing Cards */}
+        {/* Plan Cards */}
         <div className="grid md:grid-cols-3 gap-6">
           {plans.map((plan) => (
             <div
               key={plan.name}
               className={cn(
-                "bg-card border rounded-2xl p-6 text-left relative",
-                plan.popular ? "border-primary shadow-lg" : "border-border",
+                "bg-card border rounded-2xl p-6 text-left relative border-border",
+                plan.popular ? "border-primary shadow-lg" : ""
               )}
             >
               {plan.popular && (
@@ -121,18 +87,10 @@ export function PricingSection() {
                   Most Popular
                 </span>
               )}
-              <h3 className="text-xl font-semibold text-foreground mb-2">{plan.name}</h3>
-              <p className="text-muted-foreground text-sm mb-4">{plan.description}</p>
 
-              <div className="mb-6">
-                <span className="text-4xl font-bold text-foreground">
-                  US${isAnnual ? plan.price.annual : plan.price.monthly}
-                </span>
-                <span className="text-muted-foreground text-sm ml-2">
-                  {plan.price.monthly === 0 ? "free forever" : isAnnual ? "billed annually" : "billed monthly"}
-                </span>
-              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-4">{plan.name}</h3>
 
+              {/* Features List */}
               <ul className="space-y-3 mb-6">
                 {plan.features.map((feature, index) => (
                   <li key={index} className="flex items-start gap-2 text-sm text-muted-foreground">
@@ -142,12 +100,11 @@ export function PricingSection() {
                 ))}
               </ul>
 
+              {/* CTA Button */}
               <button
                 className={cn(
-                  "w-full py-3 rounded-full font-medium transition-colors",
-                  plan.popular
-                    ? "bg-primary text-primary-foreground hover:bg-primary/90"
-                    : "bg-muted text-foreground hover:bg-muted/80",
+                  "w-full py-3 rounded-full font-medium transition-colors bg-muted text-foreground hover:bg-muted/80",
+                  plan.popular ? "bg-primary text-primary-foreground hover:bg-primary/90" : ""
                 )}
               >
                 Start Now
