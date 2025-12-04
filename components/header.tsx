@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Triangle } from "lucide-react"
+import Image from 'next/image';
 
 export function Header() {
   return (
@@ -8,6 +9,11 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
+            <Image
+                            src="/connectstream logo.svg"
+                            alt="Logo"
+                            width={140} height={50} className="w-[160px] lg:w-[220px]"
+                        />
             <Triangle className="h-4 w-4 fill-primary-foreground text-primary-foreground" />
           </div>
           <span className="text-xl font-semibold text-foreground">Connectstream</span>
