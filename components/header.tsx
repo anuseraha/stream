@@ -10,7 +10,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
             <Image
-                            src="/connectstream logo.svg"
+                            src="/connect_stream logo.svg"
                             alt="Logo"
                             width={140} height={50} className="w-[160px] lg:w-[220px]"
                         />
