@@ -3,21 +3,21 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 const testimonials = [
   {
     quote:
-      "Switching to the WhatsApp Business API through this platform transformed our support speed. Message delivery is solid, media handling is seamless, and our customers actually enjoy talking to us now. It feels like support finally became personal again.",
+      "Switching to the WhatsApp Business API through this platform transformed our support speed. Message delivery is solid, media handling is seamless, and our customers actually enjoy talking to us now.",
     name: "James D.",
     role: "IT Director at Cisco",
     avatar: "/professional-man-glasses.png",
   },
   {
     quote:
-      "We integrated WhatsApp API into our operations with zero downtime. The automation of order confirmations and shipping alerts cut manual work in half. The system’s webhook logs and template management made debugging easier than on any dashboard we’ve used before.",
+      "We integrated WhatsApp API into our operations with zero downtime. The automation of order confirmations and shipping alerts cut manual work in half.",
     name: "Rachel G.",
     role: "Manager at HubSpot",
     avatar: "/professional-woman-smiling.png",
   },
   {
     quote:
-      "Our campaigns with the WhatsApp API now outperform email. The message delivery score stays consistently high, and broadcast segmentation brings real revenue. Also, their media storage pipeline made sending catalogs and invoices incredibly efficient.",
+      "Our campaigns with the WhatsApp API now outperform email. The message delivery score stays consistently high, and broadcast segmentation brings real revenue.",
     name: "Michael T.",
     role: "CEO at Salesforce",
     avatar: "/professional-man-suit.png",
